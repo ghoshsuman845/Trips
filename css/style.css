@@ -87,10 +87,10 @@ body a:focus {
 /* header */
 
 .navbar-light {
-    padding: 1.4em 10em;
+    padding: 0.5em 10em;
     position: fixed;
     z-index: 999;
-    width: 80%;
+    width: 81%;
     left: 10%;
     top: 9%;
     border-radius: 70px;
@@ -126,6 +126,7 @@ a.navbar-brand i {
 
 ul.navbar-nav.ml-lg-auto.text-center {
     margin-top: 10px;
+    margin-right: 8%;  
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -667,7 +668,7 @@ ul.social-iconsv2 li:last-child {
 }
 
 .services-box {
-    padding: 20px 0;
+    padding: 4px 0;
     transition: all 1s;
     -moz-transition: all 1s;
     /* Firefox 4 */
@@ -712,13 +713,13 @@ section.services-wthreepvt {
 }
 
 .icon i {
-    width: 70px;
-    height: 70px;
+    width: 46px;
+    height: 30px;
     color: #dc143c;
     border-radius: 50%;
-    line-height: 70px;
+    line-height: 44px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
     transition: all 1s;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
@@ -727,6 +728,7 @@ section.services-wthreepvt {
 
 .service-content {
     margin-left: 1em;
+    /* padding: 22% 1%; */
 }
 
 .service-content h4 {
